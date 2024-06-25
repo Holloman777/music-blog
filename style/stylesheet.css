@@ -160,13 +160,16 @@ p {
 
 
 .audio-player {
-    position: sticky;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
     bottom: 20px;
     left: 20px;
     width: 250px;
-    padding: 10px;
-    
-  }
+    padding: 20px;
+ 
+}
 
 
    
@@ -199,6 +202,7 @@ p {
    .text-primary {
     color: orange;
    }
+
 
 
    
