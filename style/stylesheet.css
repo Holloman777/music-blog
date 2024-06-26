@@ -12,6 +12,8 @@ html, body {
     text-align: center;
     background:url("../images/jari-hytonen-VJBIn6n_gzI-unsplash.jpg");
     color: #fff;
+
+
     
     }
 
@@ -208,11 +210,13 @@ p {
    .caption {
     text-align: center;
     font-style: italic;
+
    }
 
    .text-primary {
     color: orange;
    }
+
 
 
 
