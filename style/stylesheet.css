@@ -10,17 +10,17 @@ html, body {
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
     text-align: center;
-    background:url("../images/jari-hytonen-VJBIn6n_gzI-unsplash.jpg");
-    color: #fff;
+    background:url("images/jari-hytonen-VJBIn6n_gzI-unsplash.jpg");
+    color: #0e0d0d;
+     }
 
-
-    
-    }
 
 a {
-    color: #141414;
+    color: #333;
     text-decoration: none;
 }
+
+
 h1, h2, h3 {
     padding-bottom: 20px;
 }
@@ -134,14 +134,7 @@ h5  {
 
 .archives {
     padding: 10px;
-    
-
-    
-    
 }
-
-
-    
 
 
 h3 {
@@ -184,9 +177,6 @@ p {
  
 }
 
-
-   
-
    .about {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -197,7 +187,7 @@ p {
     
 
 
-   .centered{
+   .centered {
     position: absolute;
   top: 40%;
   left: 50%;
@@ -205,6 +195,7 @@ p {
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
+  
    }
 
    .caption {
