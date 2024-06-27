@@ -7,16 +7,13 @@
 
 /* Main styling */
 html, body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.7em;
     text-align: center;
-    color: #0e0d0d;
-  
-    background: url("../images/jari-hytonen-VJBIn6n_gzI-unsplash.jpg");
-        /* Other styles */
-    
-    
-    color: #0e0d0d;
+    color: #fff;
+    background: url("../images/background-image.jpg") no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire area */
+    min-height: 100vh; /* Ensures the background image scales correctly */
 }
 
 a {
@@ -24,15 +21,13 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3 {
+/* h1, h2, h3 {
     padding-bottom: 20px;
-    padding-top: 20px;
-}
+    padding-top: 30px;
+} */
 
 
-p {
-    margin: 10px 0;
-}
+
 
 /* Utility Classes */
 .container {
@@ -79,19 +74,37 @@ p {
     color: orange;
 }
 
-/* Additional styles */
-h1.home {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* Font styles */
+p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+#home-intro h1,
+#about-intro h1 {
     text-align: center;
+    padding: 60px 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
     padding: 25px;
-    padding-top: 5%;
 }
 
 h5 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 20px;
     padding: 20px;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+}
+
+.text-primary {
+    color: orange;
 }
 
 .new,
@@ -107,36 +120,33 @@ h5 {
     padding: 10px;
 }
 
-h3 {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    padding: 25px;
-}
+
 
 .btn {
     color: orange;
     cursor: pointer;
 }
 
+
 .audio-player {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    position: sticky;
-    bottom: 20px;
-    left: 20px;
-    width: 250px;
+    width: 100%;
     padding: 20px;
+    background: #333; /* Semi-transparent background */
+    color: #fff;
+}
+
+.index.audio-player {
+    position: absolute;
+    bottom: 0;
 }
 
 .about {
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.7em;
 }
 
-.centered {
+/* .centered {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -144,16 +154,9 @@ h3 {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-}
+} */
 
-.caption {
-    text-align: center;
-    font-style: italic;
-}
 
-.text-primary {
-    color: orange;
-}
 
 
 
