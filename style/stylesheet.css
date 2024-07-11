@@ -249,11 +249,18 @@ div.container {
 #home-upload h1, .upload-music h1 {
     width: 100%;
   padding: 12px 20px;
-  margin: 20px 0;
+  margin: 50px ;
   box-sizing: border-box;
   font-size: 40px;
   text-shadow: rgba(29, 28, 28, 0.5) 0px 3px 3px;
  
+}
+
+
+.form  {
+margin: 50px;
+
+
 }
 
 
