@@ -7,15 +7,15 @@
 
 /* Main styling */
 html, body {
-    font-family: "caprismo serif";
+   
     line-height: 1.7em;
     text-align: center;
     color: #fff;
-    background-image: url("../images/jari-hytonen-VJBIn6n_gzI-unsplash.jpg");
     background-color: #494646;
     background-size: flex;
     min-height: 100vh;  
     max-width: 100%;
+   
     
 }
 
@@ -29,13 +29,6 @@ a {
     
 
 }
-
-/* h1, h2, h3 {
-    padding-bottom: 20px;
-    padding-top: 30px;
-} */
-
-
 
 
 /* Utility Classes */
@@ -63,6 +56,9 @@ a {
 #navbar h1 {
     float: left;
     padding-top: 20px;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #navbar ul {
@@ -78,6 +74,9 @@ a {
     display: block;
     padding: 20px;
     text-align: center;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #navbar ul li a:hover,
@@ -90,6 +89,10 @@ a {
 p {
     font-size: 30px;
     text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7em;
 }
 
 .button {
@@ -102,29 +105,27 @@ p {
     cursor: pointer;
     opacity: 0.9;
     margin: 5px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #home-intro h1,
 #about-intro h1,
 #blogpost-intro h1,
 #archives-intro h1,
-#featured-content h1 {
+#featured-content h1,
+.upload-music h1 {
     text-align: center;
     padding: 50px;
     font-size: 40px;
     text-shadow: rgba(29, 28, 28, 0.5) 10px 20px 10px;
     line-height: 1.7em;
-}
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
-/* #home-info {
-    height: 520px; 
-    background: #222 url("../images/music-record.jpg") no-repeat center center;
-    background-size: cover; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-} */
+}
 
 #home-image {
     width: 25%; 
@@ -154,6 +155,7 @@ div.polaroid {
     width: 300px;
     background-color: #444;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
 }
 
 img {
@@ -169,15 +171,14 @@ div.container {
     text-decoration: underline orange;
 }
 
+.notable-regular {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
-
-
-
-
-
-
-
-    #home-info, #about-info {
+#home-info, #about-info {
     height: 520px; 
     background: #222 url("../images/studio-time.jpg") no-repeat center center;
     background-size: cover; 
@@ -230,6 +231,10 @@ div.container {
     color: #fff;
     list-style-type: none;
     text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px;
    
     
 }
@@ -238,7 +243,7 @@ div.container {
     text-shadow: rgba(29, 28, 28, 0.5) 0px 3px 3px;
     display: block;
     background-color: #333;
-    padding: 20px;   
+    padding: 25px;   
 }
 
 .underline-on-hover:hover {
@@ -246,24 +251,61 @@ div.container {
     
 }
 
-#home-upload h1, .upload-music h1 {
+.form-container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+
+
+
+label {
+    margin-bottom: 8px;
+    display: block;
+    color: #fff;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="submit"] {
     width: 100%;
-  padding: 12px 20px;
-  margin: 50px ;
-  box-sizing: border-box;
-  font-size: 40px;
-  text-shadow: rgba(29, 28, 28, 0.5) 0px 3px 3px;
- 
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid orange;
+    border-radius: 4px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="submit"] {
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="submit"]:hover {
+    background-color: orange;
 }
 
 
-.form  {
-margin: 50px;
-
+ h2 {
+    text-align: center;
+    padding: 50px;
 
 }
-
-
 
 
 
@@ -284,6 +326,10 @@ h5 {
     text-align: center;
     font-size: 30px;
     padding: 20px 20px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7em;
 }
 
 .caption {
@@ -320,14 +366,7 @@ h5 {
 }
 
 
-.footer {
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    opacity: 0.7;
-}
+
 
  
     

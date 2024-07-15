@@ -8,6 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/stylesheet.css">
 </head>
 <body>
@@ -30,21 +36,26 @@
 <body>
     <section id="home-upload">
         <div class="upload-music">
-            <h1>Upload Your Music To be Featured On <span class="text-primary">FL Cloud</span></h1>
-            <div class="underline"></div>
+            <h1>Upload To <span class="text-primary">FL Cloud</span></h1>
+            
+           <br>
+
+            <div class="form-container">
+                
+                <form action="/submit" method="post" enctype="multipart/form-data">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="file">Upload Song or Video:</label>
+                    <input type="file" id="file" name="file" accept=".mp3,.mp4" required>
+            
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
             
           
     
-    <form class="form" action="action-page">
-       <input type="text">Name
-       <br>
-       <input type="text">Genre
-       <br>
-        <input type="file"id="myFile" name="filename">
-        <br>
-        <input type="submit">
-      </form>
-    </section>
+  
     
 </body>
 </html>
